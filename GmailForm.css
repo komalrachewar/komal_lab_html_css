@@ -1,0 +1,60 @@
+body {
+    font-style: oblique;
+    height: auto;
+    margin: 0;
+}
+
+section{
+    display: block;
+}
+
+article {
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    border: 1px solid white;
+    width: 400px;
+    padding-left: 40px;
+    border-radius: 4px;
+}   
+
+video {
+    position: fixed;
+}
+
+input{
+    width: 300px;
+    border: none;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+button{
+    background-color: rgb(213, 175, 213);
+    border: none;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 4px;
+    width: 80px;
+    font-style: oblique;
+}
+
+form{
+    display: block;
+    margin-top: 0;
+}
+
+.button {
+    padding: 10px 10px 20px 0px;
+}
+
+input::placeholder{
+    font-style: oblique;
+}
+input:focus{
+    background-color: rgb(99, 173, 234, 0.4);
+    color: #fff;
+    outline: none;
+}
